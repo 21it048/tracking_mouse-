@@ -1,0 +1,7 @@
+1..winget install Python.Python.3.11 --silent --accept-package-agreements --accept-source-agreements
+
+2..py -3.11 --version
+
+3..py -3.11 -m pip install opencv-python mediapipe pyautogui
+
+4..py -3.11 eye_tracker.py
